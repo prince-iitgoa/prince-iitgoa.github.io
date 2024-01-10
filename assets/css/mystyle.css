@@ -135,7 +135,9 @@
             .active, .collapsible:hover {
             background-color: aliceblue;
             }
-
+            .active:after {
+                content: "\2212";
+              }
             .pageslist{
                 font-size: 1.5rem;
             }
