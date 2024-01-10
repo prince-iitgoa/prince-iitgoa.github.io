@@ -145,9 +145,13 @@
            .section, .summaryprof{
             padding-left: 5%;
            }
-           @media (max-width: 377px) {
-            .job-title,.company,.time,.degree,.inst {
-              text-align: center;
+         
+            @media only screen and (max-width: 1000px) {
+                .job-title,.company,.time,.degree,.inst, .section-title {
+                    text-align: center;
+                  } 
             }
+            
+        
           
           
