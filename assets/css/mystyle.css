@@ -42,6 +42,13 @@
             text-align: center;
             color: #fff;
             }
+            .subjects{
+                padding:5px;
+            }
+            .profile{
+                margin: auto;    
+                display: block;
+            }
             .section{
                 margin-top: 10px;
                 background-color: #fff;
@@ -136,5 +143,11 @@
             font-size: 23px;
            }
            .section, .summaryprof{
-            padding-left: 45pt;
+            padding-left: 5%;
            }
+           @media (max-width: 377px) {
+            .job-title,.company,.time,.degree,.inst {
+              text-align: center;
+            }
+          
+          
