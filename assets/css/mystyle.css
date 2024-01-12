@@ -65,6 +65,18 @@
             li a:hover{
                 color:white;
             }
+            .profilepic{
+                padding:5pt;
+                transition: transform 5s;
+            }
+           /*  a:hover{
+                font-size:large;
+            }
+            
+            .svgicon svg:hover{
+                width: 3%;
+                height: 3%;
+            } */
             a {
                  color: #4b9be1; 
                 text-decoration: none;
@@ -104,6 +116,7 @@
             }
             .profilepic{
                 border-radius: 50%;
+                border: 2px solid steelblue;
             }
             .collapsible {
             background-color: white;
@@ -125,7 +138,7 @@
             }
 
             .collapsible:after {
-            content: '\002B';
+            content: '\23F7';
             color: black;
             font-weight: bold;
             float: right;
@@ -136,7 +149,7 @@
             background-color: aliceblue;
             }
             .active:after {
-                content: "\2212";
+                content: "\23F6";
               }
             .pageslist{
                 font-size: 1.5rem;
@@ -147,7 +160,17 @@
            .section, .summaryprof{
             padding-left: 5%;
            }
-         
+            .profilepic:hover{
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+           } 
+           .summary{
+            padding: 5pt;
+           }
+           .content{
+            margin-bottom: 5pt;
+           }
             @media only screen and (max-width: 767px) {
                 .job-title,.company,.time,.degree,.inst, .section-title {
                     text-align: center;
