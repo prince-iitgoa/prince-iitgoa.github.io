@@ -80,15 +80,7 @@
                 width: 3%;
                 height: 3%;
             } */
-            a {
-                
-                box-shadow: 0 0 .2rem .1rem rgba(104, 104, 104, 0.4);
-                padding:3pt;
-                border-radius: 3pt;
-                margin:6pt;
-                 color: #4b9be1; 
-                text-decoration: none;
-            }
+           
             .taglin,time,h5{
                 font-size: 16px;
                 font-weight: 400;
@@ -148,7 +140,7 @@
             }
 
             .collapsible:after {
-            content: '\23F7';
+            content: '\1F704';
             color: black;
             font-weight: bold;
             float: right;
@@ -162,7 +154,7 @@
                 padding-bottom: 7px;
             }
             .active:after {
-                content: "\23F6";
+                content: "\1F702";
               }
             .pageslist{
                 font-size: 1.5rem;
@@ -184,10 +176,31 @@
            .content{
             margin-bottom: 5pt;
            }
+           a {
+                
+            box-shadow: 0 0 .2rem .1rem rgba(104, 104, 104, 0.4);
+            padding:3pt;
+            border-radius: 3pt;
+            margin:6pt;
+             color: #4b9be1; 
+            text-decoration: none;
+        }
             @media only screen and (max-width: 767px) {
                 .job-title,.company,.time,.degree,.inst, .section-title {
                     text-align: center;
                   } 
+                  a{
+                    box-shadow: none;
+                    color: #4b9be1; 
+                    text-decoration: none;
+                    border-radius: 0%;
+                    padding: 1pt;
+                    margin: 2pt;
+                  }
+                  a:hover{
+                    background-color:#035bcd;
+                    color: black;
+                  }
             }
             
         
