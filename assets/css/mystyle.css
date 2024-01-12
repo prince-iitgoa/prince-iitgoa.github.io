@@ -20,6 +20,7 @@
             }
             
             .profilecon {
+            box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
             border-radius: 10px;
             background-color: white;
             }
@@ -50,7 +51,8 @@
                 display: block;
             }
             .section{
-                margin-top: 10px;
+                box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
+                margin-top: 30px;
                 background-color: #fff;
                 border-radius: 10px;
                 padding:20px;
@@ -66,7 +68,7 @@
                 color:white;
             }
             .profilepic{
-                padding:5pt;
+                padding:3pt;
                 transition: transform 5s;
             }
            /*  a:hover{
@@ -116,7 +118,7 @@
             }
             .profilepic{
                 border-radius: 50%;
-                border: 2px solid steelblue;
+                box-shadow: 0 0 .5rem .15rem rgba(0,0,0,.4);
             }
             .collapsible {
             background-color: white;
@@ -129,7 +131,9 @@
             outline: none;
             font-size: 15px;
             }
-
+            .Fname{
+                padding:4pt;
+            }
             .content {
             padding: 0 18px;
             max-height: 0;
