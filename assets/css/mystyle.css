@@ -71,15 +71,21 @@
                 padding:3pt;
                 transition: transform 5s;
             }
-           /*  a:hover{
-                font-size:large;
+             a:hover{
+                background-color:#1B73EA;
+                color: white;
             }
-            
+            /*
             .svgicon svg:hover{
                 width: 3%;
                 height: 3%;
             } */
             a {
+                
+                box-shadow: 0 0 .2rem .1rem rgba(104, 104, 104, 0.4);
+                padding:3pt;
+                border-radius: 3pt;
+                margin:6pt;
                  color: #4b9be1; 
                 text-decoration: none;
             }
@@ -114,7 +120,7 @@
             {
                 background-color: #f8fbf5;
                 border: none;
-                padding:15pt;
+                padding:20pt;
             }
             .profilepic{
                 border-radius: 50%;
@@ -135,10 +141,10 @@
                 padding:4pt;
             }
             .content {
-            padding: 0 18px;
+            padding: 0px 18px;
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.2s ease-out;
+            transition: max-height 1s ease-out;
             }
 
             .collapsible:after {
@@ -151,6 +157,9 @@
 
             .active, .collapsible:hover {
             background-color: aliceblue;
+            }
+            .row{
+                padding-bottom: 7px;
             }
             .active:after {
                 content: "\23F6";
