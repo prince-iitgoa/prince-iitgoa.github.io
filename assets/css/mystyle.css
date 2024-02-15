@@ -195,6 +195,9 @@
                 .job-title,.company,.time,.degree,.inst, .section-title {
                     text-align: center;
                   } 
+                  .section{
+                    opacity: 1;
+                  }
                   a{
                     box-shadow: none;
                     color: #4b9be1; 
