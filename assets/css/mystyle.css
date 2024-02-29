@@ -6,6 +6,7 @@
                 margin-top: .2cm;
                 padding:3pt;
             }
+            
             .lang{
                 margin-top: 0.2cm;
                 margin-left: 0cm;
@@ -23,6 +24,9 @@
             box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
             border-radius: 10px;
             background-color: white;
+            }
+            .mainnavbar{
+                margin-left: 100pt;
             }
             .profilehead{
                 background-image: url('../images/cov.jpg');
@@ -43,6 +47,17 @@
             text-align: center;
             color: #fff;
             }
+            
+            #header_parent {
+          /*  max-width:2500px;
+            min-width:750px;*/
+            width:100%;
+            height:35px;
+            background:#019A9F;
+            position:fixed;
+            z-index: 1;
+            opacity: 1;
+        }
             .subjects{
                 padding:5px;
             }
@@ -66,6 +81,9 @@
             .summaryprof{
                 padding:30px;
             }
+            html {
+                scroll-behavior: smooth;
+              }
             li a {
             color: white;
             
@@ -99,6 +117,7 @@
             h2{
                 line-height:3;
             }
+           
             .icon-holder .svg-inline--fa {
             width: 2em;
             padding: 2pt;
@@ -191,6 +210,27 @@
              color: #4b9be1; 
             text-decoration: none;
         }
+        .navitem a{
+            all:unset;
+            font-family: Montserrat, sans-serif;
+            color: #F1F0F0;
+            font-size: 13px;
+            font-weight: bolder;
+            margin-right: 2px;
+            padding: 10px;
+            padding-left: 25pt;
+            padding-right: 25pt ;
+            vertical-align:-20%;
+        }
+        .navitem :hover{
+            background-color: #1664B8;
+            padding-bottom: 8pt;
+            padding-right: 25pt;
+        }
+        .selected{
+            background-color: #04cad1;
+            padding-bottom: 9.5pt;
+        }
             @media only screen and (max-width: 767px) {
                 .job-title,.company,.time,.degree,.inst, .section-title {
                     text-align: center;
@@ -209,6 +249,9 @@
                   a:hover{
                     background-color:#035bcd;
                     color: black;
+                  }
+                  .header_parent{
+                    display: none;
                   }
             }
             
