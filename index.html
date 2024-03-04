@@ -88,7 +88,17 @@
                     <div class="row"><div class="col-md-4"><a href="https://drive.google.com/file/d/10DRYKNld5pfIKxdqDslazgSrGIfNTM41/view?usp=share_link">Download CV</a> (updated Feb 2023)</div></div>
                 </div><!--//summary-->
             </section><!--//section-->
-           
+           </div>
+        </div>
+        <div class="" id="tail_parent">
+            <div class="container">
+                <div class="scroll" id="lookdown"></div>
+            </div>
+        </div>
+        <div class="mwrap">
+            
+            <div class="mainbody">
+            
             <section class="section experiences-section" id="experience">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experience</h2>
                 
@@ -382,6 +392,23 @@
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-users"></i></span>Projects</h2>
                 <div class="summary">
                     <button class="collapsible">
+                        <div class="row papertitle">Learning ROCA & VOCA</div>
+                        <div class="row" style="color:grey;">
+                            Dec 2023 - Mar 2024 &#8226;
+                        </div>
+                        <div class="row technology" style="display: inline;"> &#8226; Python &#8226;</div>
+                    
+                        </button>
+                    <div class="content">
+                        <div class="row">
+                      <p>Angluin-style learning algorithm for Deterministic Real-time and Visibly One-Counter Automata. This work was done as a part of my PhD.
+                      </p>
+                    </div>
+                 </div>
+                    
+                </div><!--//summary-->
+                <div class="summary">
+                    <button class="collapsible">
                         <div class="row papertitle">MOES - River Width Extraction Project</div>
                         <div class="row" style="color:grey;">
                             Jan 2018 - Dec 2018 &#8226;
@@ -583,11 +610,27 @@
         var scrollTop = $(window).scrollTop();
         if (scrollTop > 60) {
             $('#header_parent').stop().animate({height: "35px"},80);
+            
         }
         else {
              $('#header_parent').stop().animate({height: "0px"},80);   
+           
+        }
+        if(scrollTop>100){
+            $('#tail_parent').stop().animate({height: "0px"},80); 
+        }
+        else{
+            $('#tail_parent').stop().animate({height: "170px"},80);
+        }
+        var scrollBottom= $(window).height()-750;
+        if(scrollTop>scrollBottom){
+            $(".scroll").hide();
+        }
+        else{
+            $(".scroll").show();
         }
      }); 
+     
         </script>
 </body>
 </html> 
