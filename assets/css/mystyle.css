@@ -19,9 +19,13 @@
                 background:#f1f0f0;
                 padding:0pt;
             }
-            
+            .profilecon:hover{
+                box-shadow: 0 0 1rem 0.1rem #1866ba9a;
+                -webkit-transition:1.8s;
+                transition:.6s;
+            }
             .profilecon {
-            box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
+            
             border-radius: 10px;
             background-color: white;
             }
@@ -54,7 +58,7 @@
             overflow-y: auto;
             width:100%;
             height:35px;
-            background:#019A9F;
+            background:#1865ba;
             position:fixed;
             z-index: 1;
             opacity: 1;
@@ -82,17 +86,17 @@
                 display: block;
             }
             .section{
-                box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
+                
                 margin-top: 30px;
                 background-color: #fff;
                 border-radius: 10px;
                 padding:20px;
-                opacity: .2;
+                opacity: 1;
                 -webkit-transition:1.8s;
                 transition:.6s;
             }
             .section:hover{
-                opacity: 1;
+                 box-shadow: 0 0 1rem 0.1rem #1866ba9a;
             }
             .summaryprof{
                 padding:30px;
@@ -247,7 +251,7 @@
             padding-right: 25pt;
         }
         .selected{
-            background-color: #04cad1;
+            background-color: #378eec;
             padding-bottom: 9.5pt;
         }
         .scroll {
@@ -299,7 +303,8 @@
                 .job-title,.company,.time,.degree,.inst, .section-title {
                     text-align: center;
                   } 
-                  .section{
+                  .section,.profilecon{
+                    box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,.4);
                     opacity: 1;
                   }
                   a{
