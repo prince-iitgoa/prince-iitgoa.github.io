@@ -238,6 +238,9 @@
             padding-right: 25pt ;
             vertical-align:-20%;
         }
+        .container a{
+            all:unset;
+        }
         .navitem :hover{
             background-color: #1664B8;
             padding-bottom: 8pt;
