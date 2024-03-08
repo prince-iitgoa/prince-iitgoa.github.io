@@ -607,6 +607,9 @@
         $(".navitem").click(function () {
         $(this).toggleClass('selected').siblings().removeClass("selected");
     });
+
+    if (window.matchMedia('(max-width: 768px)').matches==false)
+    {
      $(window).on('scroll', function () {
         var scrollTop = $(window).scrollTop();
         if (scrollTop > 60) {
@@ -631,6 +634,11 @@
             $(".scroll").show();
         }
      }); 
+    }
+    else{
+        $('#header_parent').toggleClass('hidden');
+        $('#tail_parent').toggleClass('hidden');
+    }
      
         </script>
 </body>

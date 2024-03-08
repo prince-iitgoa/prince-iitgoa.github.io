@@ -231,6 +231,9 @@
              color: #4b9be1; 
             text-decoration: none;
         }
+        .hidden{
+            display: none;
+        }
         .navitem a{
             all:unset;
             font-family: Montserrat, sans-serif;
@@ -329,9 +332,7 @@
                     background-color:#035bcd;
                     color: black;
                   }
-                  .header_parent,.tail_parent{
-                    display: none;
-                  }
+                 
             }
             
         
