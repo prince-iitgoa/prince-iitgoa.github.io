@@ -618,10 +618,10 @@
            
         }
         if(scrollTop>100){
-            $('#tail_parent').stop().animate({height: "0px"},80); 
+            $('#tail_parent').stop().fadeOut("slow"); 
         }
         else{
-            $('#tail_parent').stop().animate({height: "170px"},80);
+            $('#tail_parent').stop().fadeIn("slow");
         }
         var scrollBottom= $(window).height()-750;
         if(scrollTop>scrollBottom){

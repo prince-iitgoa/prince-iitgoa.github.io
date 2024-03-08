@@ -30,7 +30,7 @@
             background-color: white;
             }
             .mainnavbar{
-                margin-left: 40pt;
+                margin-left: 5%;
             }
             .profilehead{
                 background-image: url('../images/cov.jpg');
@@ -329,7 +329,7 @@
                     background-color:#035bcd;
                     color: black;
                   }
-                  .header_parent{
+                  .header_parent,.tail_parent{
                     display: none;
                   }
             }
