@@ -24,7 +24,7 @@
         <div class="" id="myNavbar">
           <ul class="mainnavbar">
             <li class="navitem" id="abouthead"><a href="#home" on-click="selected">ABOUT</a></li>
-            <li class="navitem" id="exphead"><a href="#experience">EXPERIENCE</a></li>
+            <li class="navitem" id="exphead"><a href="#experience" >EXPERIENCE</a></li>
             <li class="navitem" id="eduhead"><a href="#education">EDUCATION</a></li>
             <li class="navitem" id="pubhead"><a href="#publication">PUBLICATIONS</a></li>
             <li class="navitem" id="talkhead"><a href="#talk">RECORDED TALKS</a></li>
@@ -571,7 +571,9 @@
        /* $('#home').hover(
        function(){$('#abouthead').toggleClass('selected').siblings().removeClass("selected");}
         )*/
-        
+        $('#home').hover(
+       function(){$('#abouthead').toggleClass('selected').siblings().removeClass("selected");}
+        )
         $('#experience').hover(
        function(){$('#exphead').toggleClass('selected').siblings().removeClass("selected");}
         )

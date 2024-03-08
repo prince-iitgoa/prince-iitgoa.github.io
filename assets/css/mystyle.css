@@ -250,13 +250,15 @@
             all:unset;
         }
         .navitem :hover{
-            background-color: #1664B8;
+            cursor: pointer;
+            background-color: #3b7fc7;
             padding-bottom: 8pt;
             padding-right: 25pt;
         }
         .selected{
             background-color: #378eec;
             padding-bottom: 9.5pt;
+            z-index: 5;
         }
         .scroll {
             width: 60px;
