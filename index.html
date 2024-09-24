@@ -81,7 +81,7 @@
                    </div>
                 <!-- <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>About me</h2> -->
                 <div class="summaryprof">
-                    <p>I am pursuing my PhD in Theoretical Computer Science under the guidance of <font color="#4b9be1">Dr. Sreejith A V</font> in the School of Mathematics and Computer Science at <font color="#4b9be1">Indian Institute of Technology, Goa</font>. Currently, research focused on learning push-down automata by modifying Angluin's L* algorithm. A prior research endeavour established that the problems of Equivalence, Regularity, and Covering of Weighted-one-counter automata (over fields) with counter determinacy can be solved in polynomial time.
+                    <p>I am pursuing my PhD in Theoretical Computer Science under the guidance of <font color="#4b9be1">Dr. Sreejith A V</font> in the School of Mathematics and Computer Science at <font color="#4b9be1">Indian Institute of Technology, Goa</font>. Currently, research focused on finding better algorithms for active learning of one-counter automata. A prior research endeavour established that the problems of Equivalence, Regularity, and Covering of Weighted-one-counter automata (over fields) with counter determinacy can be solved in polynomial time.
                     </p>
                     <p><div style="font-weight: bold; display: inline;">Research Interests:</div> Automata Theory &#8226; Formal methods in Computer Science &#8226; Machine Learning &#8226;</p>
                     <div class="row"><div class="col-md-4"><a href="https://drive.google.com/file/d/10DRYKNld5pfIKxdqDslazgSrGIfNTM41/view?usp=share_link" target="_blank">Download CV</a> (updated Feb 2023)</div></div>
@@ -318,6 +318,34 @@
             </section>
             <section class="section summary-section" id="talk">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-video"></i></span>Recorded Talks</h2>
+                <div class="summary">
+                    <button class="collapsible">
+                        <div class="row papertitle">Learning one-counter automata using SAT solver</div>
+                        <div class="row" style="color:grey;">
+                            Highlights of Logic, Games and Automata (Highlights 2024)</div>
+                        <div class="row"> University of Bordeaux, France &#8226; 
+                            Sep 19, 2024 
+                        </div>
+                        <!--<div class="row" style="color:grey;">
+                            Jan 31, 2023 &#8226; arXiv
+                        </div>-->
+                    
+                    </button>
+                    <div class="content">
+                        <div class="row">
+                            <div style="font-weight: bold;">Abstract: </div>
+                      <p>In this presentation, we introduce a novel method for active learning of a minimal-sized visibly one-counter automaton (VOCA) using SAT solver. We follow Angluin's L* algorithm. The algorithm uses only a polynomial number of membership or equivalence queries. All the existing literature, including the algorithm presented by Neider and Löding for learning VOCA, requires exponentially many queries relative to the size of a minimal VOCA recognising the given language. Our approach eliminates the necessity to observe the VOCAs behaviour up to exponentially large counter values. This sets it apart from existing techniques that rely on identifying repetitive patterns in behaviour graphs of exponential size.
+
+                        Michaliszyn and Otop observed that the problem of finding the minimal VOCA is NP-Complete.
+                        If a polynomial time algorithm for learning the minimal VOCA exists, it could be employed to minimise VOCA in polynomial time. Consequently, a learning algorithm for VOCA that achieves minimal representation in polynomial time does not exist.
+                        
+                        In the latter part of the work, we looked at learning Deterministic real-time one-counter automata (DROCA). However, we make use of an additional query, called counter-value query - the student gives the teacher a word, and the teacher returns the counter-value reached on traversing the word in the DROCA.
+                        We show that learning DROCA can done using polynomially many queries within this framework.
+                        This improves the existing result by Bruyère et al. that needed an exponential number of queries, space and time for learning DROCA. </p>
+                    </div>
+                    <div class="row"><div class="col-md-3">Watch Talk</div><div class="col-md-6"><a href="">to be updated</a></div></div>
+                    </div>
+                </div>
                 <div class="summary">
                     <button class="collapsible">
                         <div class="row papertitle">Weighted One-Deterministic-Counter Automata</div>
