@@ -81,7 +81,7 @@
                 <div class="summaryprof">
                     <p>I am pursuing my PhD in Theoretical Computer Science under the guidance of <font color="#4b9be1">Dr. Sreejith A V</font> in the School of Mathematics and Computer Science at <font color="#4b9be1">Indian Institute of Technology, Goa</font>. 
                         Our current research is centered on developing better algorithms for the active learning of one-counter automata. 
-                        Recently, we proved that learning deterministic one-counter automata (DOCA) can be done in polynomial time. This is the first polynomial time algorithm for learning DOCAs. Previously, we demonstrated that deterministic real-time one-counter automata (DROCAs) can be efficiently learned using a polynomial number of queries, significantly improving upon earlier algorithms that required an exponential number of queries.
+                        Recently, we proved that learning deterministic one-counter automata (DOCAs) can be done in polynomial time. This is the first polynomial time algorithm for learning DOCAs. Previously, we demonstrated that deterministic real-time one-counter automata (DROCAs) can be efficiently learned using a polynomial number of queries, significantly improving upon earlier algorithms that required an exponential number of queries.
                     </p>
                     <p>
                         Earlier research also established that problems, including equivalence, regularity, and covering for weighted one-counter automata (over fields) with counter determinacy, can be solved in polynomial time. This finding mark a promising step toward addressing the open problem of equivalence of weighted one-counter automata.
@@ -102,6 +102,31 @@
             <div class="mainbody">
                 <section class="section summary-section" id="publication">
                     <h2 class="section-title"><span class="icon-holder"><i class="fa fa-book"></i></span>Publications</h2>
+                    <div class="summary">
+                        <button class="collapsible">
+                            <div class="row papertitle">Learning Deterministic One-Counter Automata in Polynomial Time</div>
+                            <div class="row" style="color:grey;">
+                                Feb xx, 2025 &#8226; arXiv
+                            </div>
+                            <div class="row" style="display: inline;color: gray;">Other Authors: <a href="https://www.labri.fr/perso/vpenelle/" target="_blank">Vincent Penelle</a> &#8226; <a href="https://www.iitgoa.ac.in/~sreejithav/" target="_blank">Sreejith A.V</a></div>
+                        
+                            <!--<div class="row" style="color:grey;">
+                                Jan 31, 2023 &#8226; arXiv
+                            </div>-->
+                        
+                            </button>
+                        <div class="content">
+                            <div class="row">
+                                <div style="font-weight: bold;">Abstract: </div>
+                          <p> We give an active learning algorithm for deterministic one-counter automata (DOCAs) where the learner can ask the teacher membership and minimal equivalence queries. The algorithm called OL* learns a DOCA in time polynomial in the size of the smallest DOCA, recognising the target language.
+
+                            All existing algorithms for learning DOCAs, even for the subclasses of deterministic real-time one-counter automata (DROCAs) and visibly one-counter automata (VOCAs), in the worst case, run in time exponential in the size of the DOCA under learning. Furthermore, previous learning algorithms are ''grey-box'' algorithms relying on an additional query type - counter value queries - where the teacher must return the counter value for a given word. Our algorithm is a ''black-box'' algorithm, that runs in polynomial time and can learn DOCAs without any restriction.
+                            
+                            It is known that the minimisation of VOCAs is NP-hard. However, OL* can be used for approximate minimisation of DOCAs. In this case, the output size is at most polynomial in the size of a minimal DOCA. </p>
+                        </div>
+                        <div class="row"><div class="col-md-2">Full version (arXiv)</div><div class="col-md-3"><a href="http://arxiv.org/abs/2503.04525" target="_blank">click here</a></div></div>
+                        </div>
+                    </div><!--//summary-->
                     <div class="summary">
                         <button class="collapsible">
                             <div class="row papertitle">Learning Real-Time One-Counter Automata Using Polynomially Many Queries</div>
