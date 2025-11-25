@@ -75,7 +75,7 @@
                         <h4>This page is no longer maintained or updated.</h4>
                         
                         <p>You will be redirected to my personal webpage in 
-                            <span id="timer-display" class="timer">5</span> seconds.
+                            <span id="timer-display" class="timer">0</span> seconds.
                         </p>
                                
                     </div>
@@ -90,9 +90,9 @@
     <script>
         setTimeout(function() {
         window.location.href = "https://princemathew07.github.io/";
-        }, 5000);
+        }, 0);
         const timerDisplay = document.getElementById('timer-display');
-        let timeLeft = 5; // Start the countdown from 5 seconds
+        let timeLeft = 0; // Start the countdown from 5 seconds
 
     function updateTimer() {
         timerDisplay.textContent = timeLeft;
@@ -106,7 +106,7 @@
     }
 
 // Update the timer every second
-const timerInterval = setInterval(updateTimer, 1000); // 1000 milliseconds = 1 second
+const timerInterval = setInterval(updateTimer, 0); // 1000 milliseconds = 1 second
 
 // Initial call to display 3 immediately, then the interval handles the rest
 updateTimer();
